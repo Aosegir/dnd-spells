@@ -1,9 +1,16 @@
 .grid {
     display: grid;
-    grid-template: repeat(20, 1fr) / repeat(1, 1fr);
+    grid-template: repeat(20, 1fr) / repeat(1, 100%);
     width: 100%;
-};
+    text-align: center;
+}
 
 .spell-item {
+    display: flex;
+    flex-direction: row;
     width: 100%;
-};
+}
+
+.border {
+    border: 1px solid black;
+}
