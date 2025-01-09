@@ -5,11 +5,11 @@
     justify-content: left;
 }
 
-.filter {
+.spell-form {
     display: flex;
-    width: 100%;
 }
 
-p {
-    padding: 0px 10px;
+.column {
+    display: flex;
+    flex-direction: column;
 }
