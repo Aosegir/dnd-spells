@@ -1,15 +1,31 @@
 .container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: left;
+    width: 75vw;
 }
 
 .spell-form {
     display: flex;
 }
 
-.column {
+.header-flex {
     display: flex;
+}
+
+.column {
     flex-direction: column;
+}
+
+.center-justify {
+    justify-content: center;
+}
+
+.center-align {
+    align-items: center;
+}
+
+.left-justify {
+    justify-content: left;
+}
+
+.max-width {
+    width: 100%;
 }
