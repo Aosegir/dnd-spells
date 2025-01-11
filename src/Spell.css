@@ -9,8 +9,6 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 10px;
-    margin: 5px;
 }
 
 .border {
@@ -27,4 +25,16 @@
 .center {
     justify-content: center;
     align-items: center;
+}
+
+.spell-data {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    padding: 10px;
+    margin: 5px;
+    justify-items: left;
+}
+
+.spell-data li {
+    list-style-type: none;
 }

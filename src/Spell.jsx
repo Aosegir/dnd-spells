@@ -4,17 +4,25 @@ import './Spell.css';
 function Spells() {
     return(
         <div>
-            <div className="flex center">
-                <h3>Test</h3>
+            <div className="spell-data">
+                <li></li>
+                <li>Level</li>
+                <li>Name</li>
+                <li>Casting Time</li>
+                <li>Duration</li>
+                <li>Range/Area</li>
+                <li>Attack/Save</li>
+                <li>Damage/Effect</li>
             </div>
             
             <div className="flex center">
                 <div className="grid">
                     {Data.map((spell) => {
                         return(
-                            <div key={spell.id} className="spell-item border">
-                                <p>{spell.level}</p>
-                                <h3>{spell.name}</h3>
+                            <div key={spell.id} className="spell-data border">
+                                <li></li>
+                                <li>{spell.level}</li>
+                                <li>{spell.name}</li>
                             </div>
                         );
                     })}
