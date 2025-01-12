@@ -3,10 +3,10 @@ import "./Header.css";
 function Header() {
     return (
         <div className="container flex column center-align">
-            <div className="header-flex left-justify max-width">
+            <div className="header-flex left-justify max-width bottom-border">
                 <h1>DND Spells Test</h1>
             </div>
-            <form className="spell-form">
+            <form className="spell-form spell-filter">
                 <div className="header-flex column">
                     <label htmlFor="spell-name">Spell Name</label>
                     <input type="text" id="spell-name" name="spell-name" />
@@ -70,7 +70,8 @@ function Header() {
                         <option value="24-hrs">24 Hours</option>
                     </select>
                 </div>
-                
+
+                <button>Filter Spells</button>
             </form>
         </div>
     );
