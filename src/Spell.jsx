@@ -4,7 +4,7 @@ import './Spell.css';
 function Spells() {
     return(
         <div>
-            <div className="spell-data">
+            <div className="spell-data spell-data-header">
                 <li></li>
                 <li>Level</li>
                 <li>Name</li>
@@ -23,6 +23,11 @@ function Spells() {
                                 <li></li>
                                 <li>{spell.level}</li>
                                 <li>{spell.name}</li>
+                                <li>{spell.castingTime}</li>
+                                <li>{spell.duration}</li>
+                                <li></li>
+                                <li></li>
+                                <li>{spell.damage}</li>
                             </div>
                         );
                     })}
