@@ -39,6 +39,7 @@
 
 .spell-data li {
     list-style-type: none;
+    text-transform: capitalize;
 }
 
 .spell-data-header {
